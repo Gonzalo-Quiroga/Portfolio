@@ -149,7 +149,33 @@ section {
     color: var(--second-color);
     font-size: var(--p-font);
     line-height: 1.8;
+}
+
+.typing {
+    color: var(--second-color);
+    font-size: var(--p-font);
+    line-height: 1.4;
     margin-bottom: 40px;
+    display: block;
+    white-space: nowrap;
+    border-right: 1px solid;
+    width: 34ch;
+    
+
+    animation: typing 5s steps(34), blink .5s infinite step-end alternate;
+    overflow:hidden;
+}
+
+@keyframes typing {
+
+    from { width: 0}
+
+}
+
+@keyframes blink {
+
+    50% { border-color: transparent}
+
 }
 
 .button {
