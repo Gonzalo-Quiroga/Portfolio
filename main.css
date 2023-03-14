@@ -188,11 +188,11 @@ section {
 
 .btn {
     display: inline-block;
-    padding: 12px 28px;
+    padding: 15px 20px;
     background: var(--main-color);
     border-radius: 5px;
     color: var(--text-color);
-    font-size: 1rem;
+    font-size: 12px;
     letter-spacing: 1px;
     font-weight: 600;
     transition: all .45s ease;
@@ -675,9 +675,18 @@ section {
     .home {
         height: 87vh;
     }
+
+    .about-img {
+        left: 70px;
+        width: 60%;
+    }
 }
 
 @media (max-width: 920px) {
+    .home {
+        background-position: center;
+    }
+    
     .about {
         grid-template-columns: 1fr;
     }
@@ -685,6 +694,8 @@ section {
     .about-img {
         text-align: center;
         order: 2;
+        width: 45%;
+        margin-left: 180px;
     }
 
     .about-img img {
@@ -733,6 +744,11 @@ section {
 
     .navlist.open {
         top: 100%;
+    }
+
+    .about-img {
+        width: 80%;
+        margin-left: -20px;
     }
 }
 
