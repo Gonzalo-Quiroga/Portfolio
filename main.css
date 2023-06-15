@@ -427,12 +427,6 @@ section {
     font-size: 18px;
     font-weight: 500;
     border-radius: 8px;
-    transition: all .45s ease;
-}
-
-.read:hover {
-    background: #ffffff99;
-    color: var(--text-color);
 }
 
 .box:hover {
